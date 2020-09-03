@@ -1,0 +1,29 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "/*\r     Chat\r     ---------------------------------------------------------------------------------------\r     Today you'll be working on the chat.\r     The chat will be a 1 to 1 chat with the other users in the platform.\r     You'll be using Socket.io to handle the requests.\r     Start from m7-d7 homework project (chat FE), you don't have a working one you can start from this frontend from Stefano Miceli: https://github.com/Strive-School-Apr20/m7-d7-socket_io-Homework_explaination **\r     Try to realize an appropriate backend that includes:\r     - private messages\r     - broadcast messages\r     - list of connected users\r     [Extra] save messages in a Mongo collection and fetch them from FE\r     ** since this FE has been realized during a debrief probably it could have some issues here and there feel free to fix them ;)\r */",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HammadAli-WD/SocketIo.git"
+  },
+  "author": "Hammad Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HammadAli-WD/SocketIo/issues"
+  },
+  "homepage": "https://github.com/HammadAli-WD/SocketIo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
